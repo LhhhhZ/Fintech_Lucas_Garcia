@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #002B4A;
+    color: #fff;
+    height: 100vh;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#site-name {
+    color: #FF0000;
+    font-size: 4.5em;
+    margin-top: 30px;
+}
+
+#content {
+    margin-bottom: 20px;
+}
+
+#content p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+#acessar-link {
+    background-color: #FF0000;
+    color: #000000;
+}
+
+form {
+    margin-top: 100px;
+    padding: 20px;
+    border: 2px solid #FF0000;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.ml-2 {
+    margin-left: 0.5rem;
+}
